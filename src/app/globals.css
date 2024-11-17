@@ -70,3 +70,20 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.prose code {
+  font-family: "Fira Code", monospace;
+  background-color: #1f2937;
+  color: #d1d5db;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.prose pre {
+  background-color: #1f2937;
+  color: #d1d5db;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
